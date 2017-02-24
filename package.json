@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-bing",
+  "version": "0.1.0",
+  "description": "Bing scraper: Web, Image, Video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buchin/nodejs-bing.git"
+  },
+  "keywords": [
+    "bing",
+    "scraper",
+    "web",
+    "image",
+    "video"
+  ],
+  "author": "Mochammad Masbuchin <buchin@dropsugar.com> (http://zipzipan.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buchin/nodejs-bing/issues"
+  },
+  "homepage": "https://github.com/buchin/nodejs-bing#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
